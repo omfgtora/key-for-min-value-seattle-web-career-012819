@@ -3,9 +3,9 @@
 
 def key_for_min_value(name_hash)
   if name_hash
-    name_hash.each do |x|
+    x = name_hash.collect
     
-    end
+    answer.first
   else
     nil
   end
