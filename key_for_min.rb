@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   if name_hash
-    x = name_hash.collect
+    name_hash.collect
     
     answer.first
   else
