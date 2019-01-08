@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   if name_hash
-    name_hash.collect { |k,v| v }
+    values = name_hash.collect { |k,v| v }
   else
     nil
   end
